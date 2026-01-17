@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="server" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="ServerClass" />
+    <module name="ASSN2 2P13 FINAL COPY" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
