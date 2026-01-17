@@ -6,8 +6,8 @@ This project is a Java-based multiplayer card game featuring a server and GUI cl
 
 To run the game, you need Java 11 installed on your system. The game consists of three main components:
 
-- **Server** — Handles game logic and coordinates player turns.
-- **GUI Client** — Allows a player to interact with the game via a simple Java Swing interface.
+- **Server** — Handles game logic and coordinates player turns. Listens on **port 35754**.
+- **GUI Client** — Allows a player to interact with the game via a simple Java Swing interface. Connects to the server on **port 35754**.
 - **Terminal Client** — A text-based interface (you can also use `netcat`) that communicates with the server.
 
 ### Prerequisites
@@ -20,10 +20,10 @@ Make sure you have:
 ## Running the Game
 
 1. **Start the Server**  
-   Run `ServerClass.java`. This will start the game server and wait for two clients to connect.
+   Run `ServerClass.java`. This will start the game server on **port 35754** and wait for two clients to connect.
 
 2. **Start the Clients**  
-   Run `ClientClass.java` **twice** (or once on two different computers) to connect two players to the server.
+   Run `ClientClass.java` **twice** (or once on two different computers) to connect two players to the server on **port 35754**.
 
 3. **Gameplay Instructions**  
    - Each player has a deck of 6 cards drawn from a standard 12-card deck (Axe, Hammer, Sword, Arrow).  
